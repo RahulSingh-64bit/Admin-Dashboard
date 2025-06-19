@@ -1,14 +1,14 @@
 import styles from "./chart.module.css"
 
-const Chart = () =>{
+const Charts = () =>{
     return(
         <div>
 
-            Chart
+            Charts
         
         </div>
     )
 }
 
 
-export default Chart
+export default Charts

@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--bgsoft);
 }
 
 .title{
@@ -25,32 +26,23 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background-color: #05092B;
-  padding: 10px 20px;
-  border-radius: 999px;
-  border: 1px solid white;
-  transition: box-shadow 0.2s ease;
-  cursor: text;
+  background-color: #2e374a;
+  padding: 10px ;
+  border-radius: 10px;
+  
 }
 
 
 .input {
-  background-color: #05092B;
+  background-color: transparent;
   border: none;
-  outline: none;
-  color: white;
-  width: 100%;
-  font-size: 16px;
+  color: var(--text);
+
 }
 
 
-.input::placeholder {
-  color: white;
-  opacity: 0.6;
-}
-
-
-.search:focus-within {
-  box-shadow: 0 0 7px rgba(255, 255, 255, 0.6);
+.input{
+   display: flex;
+   gap: 20px;
 }
 
