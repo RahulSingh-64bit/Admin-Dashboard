@@ -1,15 +1,26 @@
-import styles from "./transaction.module.css"
+import styles from "./transactions.module.css"
 
-const Card = () =>{
+const Transactions = () =>{
     return(
-        <div>
+        <div className={styles.container}>
+            <h2>Latest Transactions</h2>
+            <table className={styles.table}>
+                <thead>
+                    <tr>
 
-            card
+                    <td>Name</td>
+                    <td>Status</td>
+                    <td>Date</td>
+                    <td>Amount</td>
+
+                    </tr>
+                </thead>
+            </table>            
         </div>
     )
 }
 
 
-export default Card
+export default Transactions
 
 

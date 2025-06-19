@@ -6,12 +6,34 @@
 
 .menu {
     flex: 1;
-    background-color: #05092B ;
-    border-right: 1px solid white;
+    background-color: var(--bgsoft) ;
     padding: 20px ;
 }
 
 .content{
     flex: 4;
     padding: 20px
+}
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+     
+}
+.main{
+    flex: 3;
+    display: flex;
+     flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    gap: 20px; 
+    justify-content: space-between;
+    }
+
+.side{
+    flex: 1;
 }
